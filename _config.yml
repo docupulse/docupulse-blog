@@ -3,8 +3,8 @@ title: "Docupulse Blog"
 description: "View, Search, and Link Files Inside Excel - Blog about document management and Excel integration"
 author: "Docupulse Team"
 email: "contact@docupulse.org"
-url: "https://docupulse.org"
-baseurl: ""
+url: "https://docupulse.github.io"
+baseurl: "/docupulse-blog"
 
 # Build settings
 markdown: kramdown
@@ -31,7 +31,7 @@ header_pages:
 collections:
   posts:
     output: true
-    permalink: /:categories/:year/:month/:day/:title:output_ext
+    permalink: /:year/:month/:day/:title/
 
 # Defaults
 defaults:

@@ -13,7 +13,7 @@ permalink: /blog/
         <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
         <div class="post-tags">
           {% for tag in post.tags %}
-            <a href="/tags/{{ tag | slugify }}" class="tag">{{ tag }}</a>
+            <a href="{{ '/tags/' | relative_url }}{{ tag | slugify }}" class="tag">{{ tag }}</a>
           {% endfor %}
         </div>
       </div>

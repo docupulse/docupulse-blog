@@ -73,7 +73,7 @@ Docupulse is a powerful document management solution that seamlessly integrates 
         <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
         <div class="post-tags">
           {% for tag in post.tags %}
-            <a href="/tags/{{ tag | slugify }}" class="tag">{{ tag }}</a>
+            <a href="{{ '/tags/' | relative_url }}{{ tag | slugify }}" class="tag">{{ tag }}</a>
           {% endfor %}
         </div>
       </div>
@@ -89,7 +89,7 @@ Docupulse is a powerful document management solution that seamlessly integrates 
 </div>
 
 <div class="text-center" style="margin-top: 2rem;">
-  <a href="{{ '/blog' | relative_url }}" class="btn btn-secondary">View All Posts</a>
+  <a href="{{ '/blog/' | relative_url }}" class="btn btn-secondary">View All Posts</a>
 </div>
 
 ---
