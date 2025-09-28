@@ -1,0 +1,14 @@
+{%- case item.platform -%}
+  {%- when 'twitter' -%}
+    <a href="https://twitter.com/{{ item.username }}" title="{{ item.username | escape }}">
+      <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg>
+    </a>
+  {%- when 'github' -%}
+    <a href="https://github.com/{{ item.username }}" title="{{ item.username | escape }}">
+      <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>
+    </a>
+  {%- when 'email' -%}
+    <a href="mailto:{{ item.username }}" title="{{ item.username | escape }}">
+      <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#email' | relative_url }}"></use></svg>
+    </a>
+{%- endcase -%}
