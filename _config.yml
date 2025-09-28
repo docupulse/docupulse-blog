@@ -13,6 +13,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Minima theme settings
 minima:
@@ -20,12 +21,15 @@ minima:
     twitter: docupulse
     github: docupulse
     email: contact@docupulse.org
+  skin: dark
+  show_excerpts: true
+  date_format: "%B %-d, %Y"
 
 # Navigation
 header_pages:
   - index.md
-  - about.md
   - blog.md
+  - about.md
 
 # Collections
 collections:
