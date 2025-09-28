@@ -9,21 +9,17 @@ baseurl: ""
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sass-converter
 
-# Minima theme settings
-minima:
-  social_links:
-    twitter: docupulse
-    github: docupulse
-    email: contact@docupulse.org
-  skin: dark
-  show_excerpts: true
-  date_format: "%B %-d, %Y"
+# Social links
+social_links:
+  twitter: docupulse
+  github: docupulse
+  email: contact@docupulse.org
 
 # Navigation
 header_pages:

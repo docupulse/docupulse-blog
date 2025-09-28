@@ -1,7 +1,19 @@
 ---
 ---
 
+// Import base styles
 @import "minima";
+
+// Override Minima variables
+$base-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$base-font-size: 16px;
+$base-line-height: 1.6;
+$text-color: #1f2937;
+$background-color: #ffffff;
+$brand-color: #2563eb;
+$grey-color: #6b7280;
+$grey-color-light: #f8fafc;
+$grey-color-dark: #374151;
 
 // Custom variables
 $primary-color: #2563eb;
@@ -14,23 +26,35 @@ $shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
 // Typography
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.6;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
   color: $text-color;
-  background-color: #ffffff;
+  background-color: $background-color;
+  font-size: $base-font-size;
 }
 
 // Header styling
 .site-header {
-  background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  background: linear-gradient(135deg, $brand-color 0%, $secondary-color 100%);
   border-bottom: none;
   box-shadow: $shadow;
+  padding: 1rem 0;
+  
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   
   .site-title {
     color: white;
     font-weight: 700;
     font-size: 1.5rem;
     text-decoration: none;
+    margin: 0;
     
     &:hover {
       color: rgba(255, 255, 255, 0.9);
@@ -38,12 +62,18 @@ body {
   }
   
   .site-nav {
+    .trigger {
+      display: flex;
+      gap: 1rem;
+    }
+    
     .page-link {
       color: white;
       font-weight: 500;
       padding: 0.5rem 1rem;
       border-radius: 0.375rem;
       transition: all 0.2s ease;
+      text-decoration: none;
       
       &:hover {
         background-color: rgba(255, 255, 255, 0.1);
@@ -58,11 +88,17 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1rem;
+  
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
 }
 
 // Homepage hero section
 .hero {
-  background: linear-gradient(135deg, $light-gray 0%, #ffffff 100%);
+  background: linear-gradient(135deg, $grey-color-light 0%, #ffffff 100%);
   padding: 4rem 2rem;
   text-align: center;
   border-radius: 1rem;
@@ -79,7 +115,7 @@ body {
   
   .hero-subtitle {
     font-size: 1.25rem;
-    color: #6b7280;
+    color: $grey-color;
     margin-bottom: 2rem;
     max-width: 600px;
     margin-left: auto;
@@ -101,7 +137,7 @@ body {
       transition: all 0.2s ease;
       
       &.btn-primary {
-        background-color: $primary-color;
+        background-color: $brand-color;
         color: white;
         
         &:hover {
@@ -113,11 +149,11 @@ body {
       
       &.btn-secondary {
         background-color: white;
-        color: $primary-color;
-        border: 2px solid $primary-color;
+        color: $brand-color;
+        border: 2px solid $brand-color;
         
         &:hover {
-          background-color: $primary-color;
+          background-color: $brand-color;
           color: white;
           transform: translateY(-2px);
         }
@@ -147,14 +183,14 @@ body {
     }
     
     h3 {
-      color: $primary-color;
+      color: $brand-color;
       font-size: 1.25rem;
       font-weight: 700;
       margin-bottom: 1rem;
     }
     
     p {
-      color: #6b7280;
+      color: $grey-color;
       line-height: 1.6;
     }
   }
@@ -177,7 +213,7 @@ body {
     }
     
     .post-meta {
-      color: #6b7280;
+      color: $grey-color;
       font-size: 0.875rem;
       margin-bottom: 1rem;
       
@@ -189,8 +225,8 @@ body {
         margin-left: 1rem;
         
         .tag {
-          background-color: $light-gray;
-          color: $primary-color;
+          background-color: $grey-color-light;
+          color: $brand-color;
           padding: 0.25rem 0.5rem;
           border-radius: 0.25rem;
           font-size: 0.75rem;
@@ -199,7 +235,7 @@ body {
           margin-right: 0.5rem;
           
           &:hover {
-            background-color: $primary-color;
+            background-color: $brand-color;
             color: white;
           }
         }
@@ -214,12 +250,12 @@ body {
       text-decoration: none;
       
       &:hover {
-        color: $primary-color;
+        color: $brand-color;
       }
     }
     
     .post-excerpt {
-      color: #6b7280;
+      color: $grey-color;
       line-height: 1.6;
     }
   }
@@ -231,7 +267,7 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     padding: 2rem;
-    background: linear-gradient(135deg, $light-gray 0%, #ffffff 100%);
+    background: linear-gradient(135deg, $grey-color-light 0%, #ffffff 100%);
     border-radius: 1rem;
     
     .post-title {
@@ -242,7 +278,7 @@ body {
     }
     
     .post-meta {
-      color: #6b7280;
+      color: $grey-color;
       font-size: 1rem;
     }
   }
@@ -266,7 +302,7 @@ body {
     
     h3 {
       font-size: 1.5rem;
-      color: $primary-color;
+      color: $brand-color;
     }
     
     p {
@@ -285,18 +321,18 @@ body {
     }
     
     blockquote {
-      border-left: 4px solid $primary-color;
+      border-left: 4px solid $brand-color;
       padding-left: 1.5rem;
       margin: 2rem 0;
       font-style: italic;
-      color: #6b7280;
-      background-color: $light-gray;
+      color: $grey-color;
+      background-color: $grey-color-light;
       padding: 1.5rem;
       border-radius: 0.5rem;
     }
     
     code {
-      background-color: $light-gray;
+      background-color: $grey-color-light;
       padding: 0.25rem 0.5rem;
       border-radius: 0.25rem;
       font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
@@ -327,33 +363,58 @@ body {
   padding: 3rem 0;
   margin-top: 4rem;
   
-  .footer-content {
+  .wrapper {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
+  }
+  
+  .footer-col-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
     text-align: center;
     
-    .footer-links {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-bottom: 2rem;
-      flex-wrap: wrap;
-      
-      a {
-        color: white;
-        text-decoration: none;
-        font-weight: 500;
+    .footer-col {
+      .contact-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
         
-        &:hover {
-          color: $accent-color;
+        li {
+          margin-bottom: 0.5rem;
+          
+          a {
+            color: white;
+            text-decoration: none;
+            
+            &:hover {
+              color: $accent-color;
+            }
+          }
         }
       }
-    }
-    
-    .footer-text {
-      color: #9ca3af;
-      font-size: 0.875rem;
+      
+      .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        
+        a {
+          color: white;
+          text-decoration: none;
+          
+          &:hover {
+            color: $accent-color;
+          }
+        }
+      }
+      
+      p {
+        color: #9ca3af;
+        font-size: 0.875rem;
+        margin: 0;
+      }
     }
   }
 }
