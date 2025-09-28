@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Secure Document Management: Enterprise-Grade Security for Your Data"
 date: 2025-01-26
 author: "Docupulse Team"

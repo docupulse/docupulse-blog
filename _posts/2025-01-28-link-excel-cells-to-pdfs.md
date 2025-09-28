@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Link Excel Cells to PDFs - A Game Changer for Document Analysis"
 date: 2025-01-28
 author: "Docupulse Team"

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "AI-Powered Document Search: Find What You Need in Seconds"
 date: 2025-01-27
 author: "Docupulse Team"

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "What is Docupulse? The Complete Guide to Intelligent Document Management"
 date: 2025-01-29
 author: "Docupulse Team"
