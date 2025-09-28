@@ -1,0 +1,57 @@
+# Site settings
+title: "Docupulse Blog"
+description: "View, Search, and Link Files Inside Excel - Blog about document management and Excel integration"
+author: "Docupulse Team"
+email: "contact@docupulse.org"
+url: "https://docupulse.org"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Minima theme settings
+minima:
+  social_links:
+    twitter: docupulse
+    github: docupulse
+    email: contact@docupulse.org
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - blog.md
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title:output_ext
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Docupulse Team"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
