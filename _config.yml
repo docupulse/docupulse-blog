@@ -25,6 +25,7 @@ social_links:
 header_pages:
   - index.md
   - blog.md
+  - use-cases.md
   - about.md
 
 # Collections

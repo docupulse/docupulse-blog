@@ -27,3 +27,22 @@ permalink: /blog/
     </article>
   {% endfor %}
 </div>
+
+## Use Case Categories
+
+<div class="use-case-categories">
+  <div class="category-card">
+    <h3><a href="/use-cases/">All Use Cases</a></h3>
+    <p>Comprehensive library of DocuPulse use cases across industries and document types.</p>
+  </div>
+  
+  <div class="category-card">
+    <h3><a href="/2025/01/30/investment-agreement-cap-table-analysis/">Investment Analysis</a></h3>
+    <p>Cap table extraction, equity structure analysis, and investment agreement processing.</p>
+  </div>
+  
+  <div class="category-card">
+    <h3><a href="/2025/01/31/service-offer-comparison-price-analysis/">Vendor Management</a></h3>
+    <p>Service offer comparison, price analysis, and vendor evaluation automation.</p>
+  </div>
+</div>

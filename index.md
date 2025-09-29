@@ -60,9 +60,41 @@ Docupulse is a powerful document management solution that seamlessly integrates 
 
 ## Use Cases
 
-- **Due Diligence**: Streamline document review processes
-- **Audit**: Efficiently manage audit documentation
-- **Controlling**: Organize and analyze financial documents
+DocuPulse transforms complex document analysis workflows across industries:
+
+- **Investment Agreement Analysis**: Automate cap table extraction and equity structure analysis
+- **Service Offer Comparison**: Streamline vendor evaluation and price analysis
+- **Due Diligence**: Accelerate M&A document review processes
+- **Audit**: Efficiently manage audit documentation and compliance
+- **Financial Analysis**: Organize and analyze financial documents with Excel integration
+
+### Featured Use Cases
+
+<div class="use-case-cards">
+  <div class="use-case-card">
+    <h3><a href="/2025/01/30/investment-agreement-cap-table-analysis/">Investment Agreement Cap Table Analysis</a></h3>
+    <p>Automatically extract and analyze equity structures from investment agreements, generating comprehensive cap tables with complete audit trails.</p>
+    <div class="use-case-tags">
+      <span class="tag">Investment Agreements</span>
+      <span class="tag">Cap Table</span>
+      <span class="tag">Equity Analysis</span>
+    </div>
+  </div>
+  
+  <div class="use-case-card">
+    <h3><a href="/2025/01/31/service-offer-comparison-price-analysis/">Service Offer Comparison & Price Analysis</a></h3>
+    <p>Automate vendor evaluation by comparing pricing, terms, and specifications across multiple service providers with AI-powered analysis.</p>
+    <div class="use-case-tags">
+      <span class="tag">Service Offers</span>
+      <span class="tag">Vendor Analysis</span>
+      <span class="tag">Price Comparison</span>
+    </div>
+  </div>
+</div>
+
+<div class="text-center" style="margin-top: 2rem;">
+  <a href="/use-cases/" class="btn btn-primary">View All Use Cases</a>
+</div>
 
 ## Latest Blog Posts
 
