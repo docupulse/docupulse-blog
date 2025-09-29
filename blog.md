@@ -37,12 +37,12 @@ permalink: /blog/
   </div>
   
   <div class="category-card">
-    <h3><a href="/2025/01/30/investment-agreement-cap-table-analysis/">Investment Analysis</a></h3>
+    <h3><a href="{{ '/2025/01/30/investment-agreement-cap-table-analysis/' | relative_url }}">Investment Analysis</a></h3>
     <p>Cap table extraction, equity structure analysis, and investment agreement processing.</p>
   </div>
   
   <div class="category-card">
-    <h3><a href="/2025/01/31/service-offer-comparison-price-analysis/">Vendor Management</a></h3>
+    <h3><a href="{{ '/2025/01/31/service-offer-comparison-price-analysis/' | relative_url }}">Vendor Management</a></h3>
     <p>Service offer comparison, price analysis, and vendor evaluation automation.</p>
   </div>
 </div>

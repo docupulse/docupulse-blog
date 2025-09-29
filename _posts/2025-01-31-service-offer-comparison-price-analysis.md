@@ -509,9 +509,9 @@ DocuPulse's service offer comparison and price analysis capability represents a 
 
 ### Related Use Cases
 
-- [Investment Agreement Cap Table Analysis](/2025/01/30/investment-agreement-cap-table-analysis/) - Automate equity structure extraction and analysis
-- [View All Use Cases](/use-cases/) - Explore comprehensive use case library
-- [DocuPulse Blog](/blog/) - Latest features, tutorials, and insights
+- [Investment Agreement Cap Table Analysis]({{ '/2025/01/30/investment-agreement-cap-table-analysis/' | relative_url }}) - Automate equity structure extraction and analysis
+- [View All Use Cases]({{ '/use-cases/' | relative_url }}) - Explore comprehensive use case library
+- [DocuPulse Blog]({{ '/blog/' | relative_url }}) - Latest features, tutorials, and insights
 
 ---
 

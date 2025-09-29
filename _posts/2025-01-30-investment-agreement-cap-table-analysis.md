@@ -459,9 +459,9 @@ DocuPulse's investment agreement cap table analysis capability represents a para
 
 ### Related Use Cases
 
-- [Service Offer Comparison & Price Analysis](/2025/01/31/service-offer-comparison-price-analysis/) - Automate vendor evaluation and pricing analysis
-- [View All Use Cases](/use-cases/) - Explore comprehensive use case library
-- [DocuPulse Blog](/blog/) - Latest features, tutorials, and insights
+- [Service Offer Comparison & Price Analysis]({{ '/2025/01/31/service-offer-comparison-price-analysis/' | relative_url }}) - Automate vendor evaluation and pricing analysis
+- [View All Use Cases]({{ '/use-cases/' | relative_url }}) - Explore comprehensive use case library
+- [DocuPulse Blog]({{ '/blog/' | relative_url }}) - Latest features, tutorials, and insights
 
 ---
 

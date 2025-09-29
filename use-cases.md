@@ -21,7 +21,7 @@ DocuPulse transforms complex document analysis workflows across industries, auto
 - Complete audit trails and compliance documentation
 - Scenario modeling for dilution and exit analysis
 
-[Read Full Use Case →](/2025/01/30/investment-agreement-cap-table-analysis/)
+[Read Full Use Case →]({{ '/2025/01/30/investment-agreement-cap-table-analysis/' | relative_url }})
 
 ---
 
@@ -36,7 +36,7 @@ DocuPulse transforms complex document analysis workflows across industries, auto
 - Comprehensive vendor scoring and ranking
 - Risk assessment and mitigation strategies
 
-[Read Full Use Case →](/2025/01/31/service-offer-comparison-price-analysis/)
+[Read Full Use Case →]({{ '/2025/01/31/service-offer-comparison-price-analysis/' | relative_url }})
 
 ---
 

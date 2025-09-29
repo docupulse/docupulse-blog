@@ -72,7 +72,7 @@ DocuPulse transforms complex document analysis workflows across industries:
 
 <div class="use-case-cards">
   <div class="use-case-card">
-    <h3><a href="/2025/01/30/investment-agreement-cap-table-analysis/">Investment Agreement Cap Table Analysis</a></h3>
+    <h3><a href="{{ '/2025/01/30/investment-agreement-cap-table-analysis/' | relative_url }}">Investment Agreement Cap Table Analysis</a></h3>
     <p>Automatically extract and analyze equity structures from investment agreements, generating comprehensive cap tables with complete audit trails.</p>
     <div class="use-case-tags">
       <span class="tag">Investment Agreements</span>
@@ -82,7 +82,7 @@ DocuPulse transforms complex document analysis workflows across industries:
   </div>
   
   <div class="use-case-card">
-    <h3><a href="/2025/01/31/service-offer-comparison-price-analysis/">Service Offer Comparison & Price Analysis</a></h3>
+    <h3><a href="{{ '/2025/01/31/service-offer-comparison-price-analysis/' | relative_url }}">Service Offer Comparison & Price Analysis</a></h3>
     <p>Automate vendor evaluation by comparing pricing, terms, and specifications across multiple service providers with AI-powered analysis.</p>
     <div class="use-case-tags">
       <span class="tag">Service Offers</span>
