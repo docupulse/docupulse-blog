@@ -70,30 +70,46 @@ DocuPulse transforms complex document analysis workflows across industries:
 
 ### Featured Use Cases
 
-<div class="use-case-cards">
-  <div class="use-case-card">
-    <h3><a href="{{ '/2025/01/30/investment-agreement-cap-table-analysis/' | relative_url }}">Investment Agreement Cap Table Analysis</a></h3>
-    <p>Automatically extract and analyze equity structures from investment agreements, generating comprehensive cap tables with complete audit trails.</p>
-    <div class="use-case-tags">
-      <span class="tag">Investment Agreements</span>
-      <span class="tag">Cap Table</span>
-      <span class="tag">Equity Analysis</span>
+<div class="post-list">
+  <article class="post-item">
+    <div class="post-meta">
+      <span class="post-date">January 30, 2025</span>
+      <div class="post-tags">
+        <span class="tag">Investment Agreements</span>
+        <span class="tag">Cap Table</span>
+        <span class="tag">Equity Analysis</span>
+      </div>
     </div>
-  </div>
+    <h2 class="post-title">
+      <a href="{{ '/2025/01/30/investment-agreement-cap-table-analysis/' | relative_url }}">Investment Agreement Cap Table Analysis</a>
+    </h2>
+    <div class="post-excerpt">
+      Automatically extract and analyze equity structures from investment agreements, generating comprehensive cap tables with complete audit trails.
+    </div>
+    <a href="{{ '/2025/01/30/investment-agreement-cap-table-analysis/' | relative_url }}" class="btn btn-primary">Read More</a>
+  </article>
   
-  <div class="use-case-card">
-    <h3><a href="{{ '/2025/01/31/service-offer-comparison-price-analysis/' | relative_url }}">Service Offer Comparison & Price Analysis</a></h3>
-    <p>Automate vendor evaluation by comparing pricing, terms, and specifications across multiple service providers with AI-powered analysis.</p>
-    <div class="use-case-tags">
-      <span class="tag">Service Offers</span>
-      <span class="tag">Vendor Analysis</span>
-      <span class="tag">Price Comparison</span>
+  <article class="post-item">
+    <div class="post-meta">
+      <span class="post-date">January 31, 2025</span>
+      <div class="post-tags">
+        <span class="tag">Service Offers</span>
+        <span class="tag">Vendor Analysis</span>
+        <span class="tag">Price Comparison</span>
+      </div>
     </div>
-  </div>
+    <h2 class="post-title">
+      <a href="{{ '/2025/01/31/service-offer-comparison-price-analysis/' | relative_url }}">Service Offer Comparison & Price Analysis</a>
+    </h2>
+    <div class="post-excerpt">
+      Automate vendor evaluation by comparing pricing, terms, and specifications across multiple service providers with AI-powered analysis.
+    </div>
+    <a href="{{ '/2025/01/31/service-offer-comparison-price-analysis/' | relative_url }}" class="btn btn-primary">Read More</a>
+  </article>
 </div>
 
 <div class="text-center" style="margin-top: 2rem;">
-  <a href="/use-cases/" class="btn btn-primary">View All Use Cases</a>
+  <a href="{{ '/use-cases/' | relative_url }}" class="btn btn-primary">View All Use Cases</a>
 </div>
 
 ## Latest Blog Posts
